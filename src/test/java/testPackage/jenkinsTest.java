@@ -27,7 +27,7 @@ public class jenkinsTest {
 	@BeforeTest
 	public void config() {
 
-		SimpleDateFormat formater = new SimpleDateFormat("MM_dd_yyyy_hh_mm");
+		SimpleDateFormat formater = new SimpleDateFormat("MM_dd_yyyy");
 		String path = "./Report/Jenkins_Automation_Test_Report_" + formater.format(new Date()) + ".html";
 
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
