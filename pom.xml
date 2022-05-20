@@ -49,6 +49,16 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.9</version>
+		</dependency>
+
+
+
+
 
 
 
@@ -89,7 +99,8 @@
 					<version>3.0.0-M6</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>E:/Rest API Automation/Jenkins_project/src/main/resources/testng.xml</suiteXmlFile>
+							<suiteXmlFile>E:/Rest API
+								Automation/Jenkins_project/src/main/resources/testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
