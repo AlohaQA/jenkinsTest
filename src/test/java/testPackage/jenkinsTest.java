@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -106,7 +107,7 @@ public class jenkinsTest {
 
 	}
 
-	@AfterSuite
+	@AfterTest
 	public void afterSuite() {
 		extent.flush();
 	}
